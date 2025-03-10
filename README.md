@@ -1,4 +1,4 @@
-# Ejercicio práctico 2 - Módulo 6 Adalid Corfo
+# Ejercicio grupal - Módulo 6 Adalid Corfo
 
 ## Descripción del Proyecto
 
@@ -11,10 +11,10 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/Pabloblockchain24/ejercicio2-modulo6-adalid-corfo.git
+   git clone https://github.com/Pabloblockchain24/ejercicio_grupal-adalid-corfo.git
    ```
    
-   cd ejercicio2-modulo6-adalid-corfo
+   cd ejercicio_grupal-adalid-corfo
 
    npm install
    npm run server 
@@ -24,7 +24,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 ## Estructura de carpetas y archivos
 
 ```
-ejercicio2-modulo6-adalid-corfo/
+ejercicio_grupal-adalid-corfo/
 ├── public/
 │   ├── assets/
 │   │   ├── img/
@@ -122,6 +122,8 @@ Diagnostico lighthouse:
 ![Diagnostico de PWA en lighthouse ](/public/assets/imgs/lighthouse-diagnostic.jpg)
 
 Analisis lighthouse final: 
+
+![Diagnostico de PWA en lighthouse ](/public/assets/imgs/lighthouse-improved.jpg)
 
 
 
