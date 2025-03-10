@@ -1,0 +1,61 @@
+@use "../abstracts/variables" as variables;
+
+
+.doctor-form__container{
+    padding-inline: 30rem;
+
+    textarea{
+        border: 1px solid rgba(128, 128, 128, 0.466);
+        padding: 1rem;
+    }
+}
+
+.image-preview{
+    width:200px;
+    margin-block: 1rem;
+  
+    p{
+        font-weight: bold;
+    }
+    img{
+        width: 200px;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+
+.image-options{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-block: 1rem;
+}
+
+.camera-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    video{
+        width: 200px;
+    }
+
+    canvas {
+        display: none;
+        width: 200px;
+    }
+    button{
+        background-color: rgb(209, 209, 209);
+        &:hover{
+            background-color: rgb(102, 102, 102);
+            color: white
+
+        }
+    }
+}
+
